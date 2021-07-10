@@ -4,6 +4,5 @@
 - [Live Link](https://vercel.com/carlorossi11/organic/6ZwXf8Wb7A6J8MiwCFe9rKcWPc32)
 
 ## ToDo:
-- Add router and pages
 - Add fonts
 - Add Shopify

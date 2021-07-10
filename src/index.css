@@ -19,21 +19,33 @@ code {
     monospace;
 }
 
+/* Navbar */
 .header{
-  /* display: flex;
-  flex-wrap: wrap;
-  align-items: space-around;
-  justify-content: center; */
   color: white;
   margin: auto;
   text-align: center;
 }
 
+.logo{
+  max-width: 100%;
+  padding: 0;
+}
+
+.navlink{
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+/* App */
 .App {
   margin: auto;
   text-align: center;
+  width: 100%;
+  color: #d9a78e;
 }
 
+/* footer */
 .footer {
   margin-top: 100%;
   color: #d9a78e;
@@ -48,8 +60,7 @@ code {
   .header{
     display: flex;
     flex-wrap: wrap;
-    align-items: space-around;
-    justify-content: center;
+    justify-content: space-around;
     color: white;
     margin: auto;
     text-align: center;

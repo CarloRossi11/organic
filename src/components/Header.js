@@ -4,12 +4,12 @@ import logo from './transparent.PNG'
 function Header() {
     return (
         <div className="header">
-            <img src={logo} alt="logo" width="500" height="333"/>
+            <a href="/"><img className="logo" src={logo} alt="logo" width="500" height="333"/></a>
             <nav>
                 <navbar>
-                    <a>contact </a>
-                    <a> ~ shop </a>
-                    <a> ~ media</a>
+                    <a className="navlink" href="/about">About </a> ~
+                    <a className="navlink" href="/shop"> Shop </a> ~
+                    <a className="navlink" href="/media"> Media</a>
                 </navbar>
             </nav>
             
