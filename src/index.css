@@ -1,5 +1,5 @@
 body {
-  margin: 10;
+  margin: auto;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -10,6 +10,8 @@ body {
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
+  text-align: center;
+
 }
 
 code {
@@ -18,10 +20,17 @@ code {
 }
 
 .header{
+  /* display: flex;
+  flex-wrap: wrap;
+  align-items: space-around;
+  justify-content: center; */
   color: white;
+  margin: auto;
+  text-align: center;
 }
 
 .App {
+  margin: auto;
   text-align: center;
 }
 
@@ -30,7 +39,19 @@ code {
   color: #d9a78e;
   font-size: 12px;
   display: inline-block;
-  /* margin: 20px; */
   padding: 20px;
   border-top: 1px solid #d9a78e;
+}
+
+
+@media only screen and (max-width: 671px) {
+  .header{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: space-around;
+    justify-content: center;
+    color: white;
+    margin: auto;
+    text-align: center;
+  }
 }
